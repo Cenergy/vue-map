@@ -1,6 +1,6 @@
 <!--  -->
 <template>
-<div class=''>hello vue</div>
+<div class=''>hello vue0.0</div>
 </template>
 
 <script>

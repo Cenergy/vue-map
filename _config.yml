@@ -6,7 +6,7 @@ deploy:
   repo:
     github: 
       url: https://github.com/Cenergy/vue-map.git
-      branch: release
+      branch: master
     coding: 
       url: https://git.dev.tencent.com/AIGIS/vue-map.git
-      branch: release
+      branch: master
