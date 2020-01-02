@@ -1,0 +1,12 @@
+# vue deployer
+public_dir: dist
+
+deploy:
+  type: git
+  repo:
+    github: 
+      url: https://github.com/Cenergy/vue-map.git
+      branch: release
+    coding: 
+      url: https://git.dev.tencent.com/AIGIS/vue-map.git
+      branch: release
