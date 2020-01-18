@@ -5,8 +5,10 @@
 <script>
 import * as components from "../content";
 import mapboxgl from "mapbox-gl";
+import Image from "../content/Image.vue";
 import "mapbox-gl/dist/mapbox-gl.css";
 import Vue from "vue";
+import componentMarker from "../../utils/componentMarker";
 export default {
   mounted() {
     this.initMap();
@@ -24,10 +26,12 @@ export default {
 
       const coordinates = map.getCenter().toArray();
 
-      const html = this.component2html({
-        component: components["image"],
-        data: { hello: "这是vue模板生成的地图弹窗!" }
+      const html = componentMarker({
+        component: Image,
+        parent: this,
+        propsData: { hello: '这是模板生成的overlay' }
       });
+      console.log(`Rd: initMap -> html`, html);
 
       const popover = new mapboxgl.Marker({
         element: html,
