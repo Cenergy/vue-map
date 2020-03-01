@@ -4,10 +4,11 @@
 
 <script>
 export default {
-  data() {
-    return {
-      hello: 1
-    };
+  props: {
+    hello: {
+      type: String,
+      default: ""
+    }
   }
 };
 </script>
