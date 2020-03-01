@@ -5,7 +5,7 @@ function resolve(dir) {
 const BASE_PATH = process.env.NODE_ENV === "production" ? "/vue-map/" : "/";
 const name = "View Map"; // page title
 module.exports = {
-  publicPath: BASE_PATH,
+  publicPath: "/",
   outputDir: "dist",
   assetsDir: "static",
   lintOnSave: true,

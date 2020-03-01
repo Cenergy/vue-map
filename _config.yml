@@ -4,9 +4,9 @@ public_dir: dist
 deploy:
   type: git
   repo:
-    github: 
+    github:
       url: https://github.com/Cenergy/vue-map.git
       branch: master
-    coding: 
-      url: https://git.dev.tencent.com/AIGIS/vue-map.git
+    coding:
+      url: https://e.coding.net/aigis/map.git
       branch: master
