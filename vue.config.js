@@ -2,10 +2,10 @@ const path = require("path");
 function resolve(dir) {
   return path.join(__dirname, dir);
 }
-const BASE_PATH = process.env.NODE_ENV === "production" ? "/vue-map/" : "/";
+const BASE_PATH = process.env.NODE_ENV === "production" ? "/gis/" : "/";
 const name = "View Map"; // page title
 module.exports = {
-  publicPath: "/",
+  publicPath: BASE_PATH,
   outputDir: "dist",
   assetsDir: "static",
   lintOnSave: true,

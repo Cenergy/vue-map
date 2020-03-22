@@ -10,3 +10,6 @@ deploy:
     coding:
       url: https://e.coding.net/aigis/map.git
       branch: master
+    aigisss:
+      url: root@aigisss:/home/git/gis
+      branch: master
